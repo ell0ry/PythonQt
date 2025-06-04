@@ -34,6 +34,8 @@ else()
   set_property(CACHE PythonQt_QT_VERSION PROPERTY STRINGS "4" "5")
 endif()
 
+set(PythonQt_QT_VERSION 5)
+
 # Requirements
 set(minimum_required_qt5_version "5.3.0")
 set(minimum_required_qt4_version "4.6.2")
