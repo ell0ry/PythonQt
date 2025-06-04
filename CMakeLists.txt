@@ -99,7 +99,7 @@ endforeach()
 # Define PythonQt_Wrap_Qt* options
 option(PythonQt_Wrap_QtAll "Make all Qt components available in python" ON)
 foreach(qtlib ${qtlibs})
-  OPTION(PythonQt_Wrap_Qt${qtlib_to_wraplib_${qtlib}} "Make all of Qt${qtlib} available in python" ON)
+  OPTION(PythonQt_Wrap_Qt${qtlib_to_wraplib_${qtlib}} "Make all of Qt${qtlib} available in python" OFF)
 endforeach()
 
 #-----------------------------------------------------------------------------
