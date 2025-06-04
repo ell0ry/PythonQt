@@ -102,9 +102,9 @@ set(qtlib_to_wraplib_Widgets gui)
 set(qtlib_to_wraplib_WebKitWidgets webkit)
 
 # Define PythonQt_Wrap_Qt* options
-option(PythonQt_Wrap_QtAll "Make all Qt components available in python" OFF)
+option(PythonQt_Wrap_QtAll "Make all Qt components available in python" ON)
 foreach(qtlib ${qt_wrapped_libs})
-  OPTION(PythonQt_Wrap_Qt${qtlib} "Make all of Qt${qtlib} available in python" OFF)
+  OPTION(PythonQt_Wrap_Qt${qtlib} "Make all of Qt${qtlib} available in python" ON)
 endforeach()
 
 # Set qtlib_to_wraplib_* variables
