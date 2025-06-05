@@ -1,4 +1,4 @@
-option(PythonQt_Extensions "Build PythonQt extensions." OFF)
+option(PythonQt_Extensions "Build PythonQt extensions." ON)
 
 if(PythonQt_Extensions)
   set(qtall_headers
